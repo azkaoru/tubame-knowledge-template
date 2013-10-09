@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PortabilityKnowhow xmlns="http://generated.model.biz.knowhow.tubame/knowhow" xmlns:ns2="http://docbook.org/ns/docbook">
+    <PortabilityKnowhowTitle>user-knowledge</PortabilityKnowhowTitle>
+    <EntryViewList>
+        <EntryCategory>
+            <EntryCategoryRefKey>category_1</EntryCategoryRefKey>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_2</EntryCategoryRefKey>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_3</EntryCategoryRefKey>
+                </ChildEntry>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_4</EntryCategoryRefKey>
+                </ChildEntry>
+            </ChildEntry>
+        </EntryCategory>
+        <EntryCategory>
+            <EntryCategoryRefKey>category_5</EntryCategoryRefKey>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_6</EntryCategoryRefKey>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_7</EntryCategoryRefKey>
+                </ChildEntry>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_8</EntryCategoryRefKey>
+                </ChildEntry>
+            </ChildEntry>
+        </EntryCategory>
+    </EntryViewList>
+    <ChapterList/>
+    <CategoryList>
+        <Category categoryId="category_1" appropriate="true">
+            <CategoryName>this is knowledge template</CategoryName>
+        </Category>
+        <Category categoryId="category_2" appropriate="false">
+            <CategoryName>subject</CategoryName>
+        </Category>
+        <Category categoryId="category_3" appropriate="true">
+            <CategoryName>Environment</CategoryName>
+            <KnowhowRefKey>knowhow_2</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_4" appropriate="true">
+            <CategoryName>Porting knowledge</CategoryName>
+            <KnowhowRefKey>knowhow_3</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_5" appropriate="true">
+            <CategoryName>ユーザナレッジサンプル</CategoryName>
+        </Category>
+        <Category categoryId="category_6" appropriate="false">
+            <CategoryName>JSPのプレコンパイルについて</CategoryName>
+        </Category>
+        <Category categoryId="category_7" appropriate="true">
+            <CategoryName>Environment</CategoryName>
+            <KnowhowRefKey>knowhow_4</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_8" appropriate="true">
+            <CategoryName>Porting knowledge</CategoryName>
+            <KnowhowRefKey>knowhow_5</KnowhowRefKey>
+        </Category>
+    </CategoryList>
+    <KnowhowList>
+        <KnowhowInfomation knowhowId="knowhow_2" knowhowDetailRefKey="knowhowDetail_2">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>environment</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_3" knowhowDetailRefKey="knowhowDetail_3">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>Porting knowledge</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_4" knowhowDetailRefKey="knowhowDetail_4">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>environment</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_5" knowhowDetailRefKey="knowhowDetail_5">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>JSPのプレコンパイルについて</KnowhowName>
+        </KnowhowInfomation>
+    </KnowhowList>
+    <DocBookList>
+        <DocBook articleId="knowhowDetail_2">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>environment</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:itemizedlist>
+                        <ns2:listitem>
+                            <ns2:table>
+<ns2:title>Environment before you perform the migration</ns2:title>
+<ns2:tgroup cols="4">
+    <ns2:thead>
+        <ns2:row>
+            <ns2:entry>OS</ns2:entry>
+            <ns2:entry>JAVA </ns2:entry>
+            <ns2:entry>AP Server</ns2:entry>
+        </ns2:row>
+    </ns2:thead>
+    <ns2:tbody>
+        <ns2:row>
+            <ns2:entry>TODO:</ns2:entry>
+            <ns2:entry>TODO:</ns2:entry>
+            <ns2:entry>TODO:</ns2:entry>
+        </ns2:row>
+    </ns2:tbody>
+</ns2:tgroup>
+                            </ns2:table>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:table>
+<ns2:title>Environment after you perform the migration</ns2:title>
+<ns2:tgroup cols="4">
+    <ns2:thead>
+        <ns2:row>
+            <ns2:entry>OS</ns2:entry>
+            <ns2:entry>JAVA </ns2:entry>
+            <ns2:entry>AP Server</ns2:entry>
+        </ns2:row>
+    </ns2:thead>
+    <ns2:tbody>
+        <ns2:row>
+            <ns2:entry>TODO:</ns2:entry>
+            <ns2:entry>TODO:</ns2:entry>
+            <ns2:entry>TODO:</ns2:entry>
+        </ns2:row>
+    </ns2:tbody>
+</ns2:tgroup>
+                            </ns2:table>
+                        </ns2:listitem>
+                    </ns2:itemizedlist>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_3">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>Porting knowledge</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para/>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_4">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>environment</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:itemizedlist>
+                        <ns2:listitem>
+                            <ns2:table>
+<ns2:title>Environment before you perform the migration</ns2:title>
+<ns2:tgroup cols="4">
+    <ns2:thead>
+        <ns2:row>
+            <ns2:entry>OS</ns2:entry>
+            <ns2:entry>JAVA </ns2:entry>
+            <ns2:entry>AP Server</ns2:entry>
+        </ns2:row>
+    </ns2:thead>
+    <ns2:tbody>
+        <ns2:row>
+            <ns2:entry/>
+            <ns2:entry/>
+            <ns2:entry>WebLogic9</ns2:entry>
+        </ns2:row>
+    </ns2:tbody>
+</ns2:tgroup>
+                            </ns2:table>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:table>
+<ns2:title>Environment after you perform the migration</ns2:title>
+<ns2:tgroup cols="4">
+    <ns2:thead>
+        <ns2:row>
+            <ns2:entry>OS</ns2:entry>
+            <ns2:entry>JAVA </ns2:entry>
+            <ns2:entry>AP Server</ns2:entry>
+        </ns2:row>
+    </ns2:thead>
+    <ns2:tbody>
+        <ns2:row>
+            <ns2:entry/>
+            <ns2:entry/>
+            <ns2:entry>JBoss EAP6</ns2:entry>
+        </ns2:row>
+    </ns2:tbody>
+</ns2:tgroup>
+                            </ns2:table>
+                        </ns2:listitem>
+                    </ns2:itemizedlist>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_5">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>Porting knowledge</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
+			WebLogicでは、WebLogicではweblogic.xmlのjsp-descriptorより可能で、JSPに関連する項目として、precompile属性が存在する。
+			<ns2:warning>
+                            <ns2:para>docbookのfigureタグを利用して、設定ファイルのコードや、プログラムのコードを定義するようにしてください。textdataタグのfilerefで指定するファイルパスは、tubame.knowldegeプラグインのeclipse/plugins/tubame.knowhow_*/resources/xslを起点として、適宜ファイルを配置させる必要があります。	</ns2:para>
+                            <ns2:para>以下でweblogic.xmlを表示させるために、fileref='programlisting/xml/weblogic.xml'とした場合、eclipse/plugins/tubame.knowhow_*/resources/xsl/programlisting/xml/weblogic.xmlを配置する必要があるのでご注意ください。</ns2:para>
+                            <ns2:figure>
+<ns2:title>figureタグを利用して、weblogic.xmlを表示する例</ns2:title>
+<ns2:programlisting language="xml">
+						<ns2:textobject>
+        <ns2:textdata fileref="programlisting/xml/weblogic.xml"/>
+    </ns2:textobject>
+					</ns2:programlisting>
+                            </ns2:figure>
+                            <ns2:figure>
+<ns2:title>figureタグを利用して、example.javaを表示する例</ns2:title>
+<ns2:programlisting language="java">
+						<ns2:textobject>
+        <ns2:textdata fileref="programlisting/java/Foo.java"/>
+    </ns2:textobject>
+				　　　　</ns2:programlisting>
+                            </ns2:figure>
+                        </ns2:warning>
+		</ns2:para>
+                    <ns2:para>
+			JBossEAP6では、デプロイ時にすべてのJSPを自動でプリコンパイルする機能はJBossに存在しない。
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+    </DocBookList>
+    <SearchInfomationList/>
+</PortabilityKnowhow>
